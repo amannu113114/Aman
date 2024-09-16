@@ -1,0 +1,32 @@
+#PageA{
+    height: 6vh;
+    width: 100%;
+    background-color: rgb(114, 114, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#PageA #nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 678px) {
+    #PageA{
+        height: 4vh;
+        width: 100%;
+
+    }
+    #PageA #nav {
+        gap: 4%;
+        font-size: 7px;
+    }
+}
