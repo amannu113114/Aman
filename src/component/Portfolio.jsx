@@ -2,6 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 import Link from './Link';
 import Skill from './Skill';
+import Id from './Id';
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
@@ -12,7 +13,7 @@ const Portfolio = () => {
       <div className="portfolio-body">
         <p className="portfolio-name">AMAN KUMAR</p>
         <p className="portfolio-description">
-          Enthusiastic Web Developer with high resolution design and developed web environment based on future creativity and intelligence with digital realms.
+          Enthusiastic Web/App Developer with high resolution design and developed web environment based on future creativity and intelligence programmed with digital realms.
         </p>
       </div>
       <div className="portfolio-info">
@@ -38,6 +39,7 @@ const Portfolio = () => {
       </div>
       <Link/>
       <Skill/>
+      <Id/>
       
     </div>
   );

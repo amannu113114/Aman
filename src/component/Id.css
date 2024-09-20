@@ -1,0 +1,64 @@
+#Ids {
+    height: 600px;
+    background-color: #333;
+    width: 50px;
+    position: absolute;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 15px;
+    top: 20%;
+    right: 0%;
+    padding: 10px 15px;
+    transition: all ease 1s;
+}
+
+#Ids #identity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Ids #identity h3{
+    font-size: 40px;
+}
+
+#Ids #identitycard{
+    background-color: #69756543;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    /* padding: 15px 10px; */
+}
+
+#Ids #identitycard #name{
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #333;
+    border-radius: 20px 20px 0 0;
+    height: 10%;
+    color: white;
+    justify-items: center;
+    padding-top: 1.8%;
+}
+
+#Ids #identitycard #detailed #detailedinfo p{
+    font-size: 30px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 30px;
+
+}
+
+
+#Ids:hover {
+    width: 500px;
+    transition: all ease 1s;
+    background-color: whitesmoke;
+    color: black;
+}

@@ -4,9 +4,9 @@ import './Skill.css'
 function Skill() {
   return (
     <div id='Skill'>
-        <p>Frontend</p>
-        <p>UI & UX</p>
-        <p>Java</p> 
+        <p>Web Developer</p>
+        <p>App Developer</p>
+        <p>Programmer</p> 
         <h3>Skills</h3>
     </div>
   )

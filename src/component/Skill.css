@@ -17,13 +17,12 @@
 #Skill h3 {
     margin-top: 10px;
     font-size: 30px;
-    font-weight: 900;
-    /* font-family: cursive; */
+    font-weight: 800;
 }
 
 #Skill p {
-    font-size: 20px;
-    font-weight: 550;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 #Skill:hover {

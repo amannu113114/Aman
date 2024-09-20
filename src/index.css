@@ -9,4 +9,6 @@ html,body{
     width: 100%;
     background-color: black;
     color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
