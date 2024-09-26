@@ -17,7 +17,7 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="portfolio-info">
-        <div className="portfolio-info-item skills">
+        {/* <div className="portfolio-info-item skills">
           <h4>Skills</h4>
           <p>Frontend Developer</p>
           <p>Language Programing</p>
@@ -28,13 +28,12 @@ const Portfolio = () => {
           <p>Medikit</p>
           <p>Portfolio itself</p>
           <p>GSAP Collection</p>
-        </div>
+        </div> */}
         <div className="portfolio-info-item contact">
           <h4>Experience</h4>
           <p>1+ year Frontend</p>
           <p>2+ year Java Programming</p>
           <p>0+ year Algorithm</p>
-
         </div>
       </div>
       <Link/>

@@ -16,7 +16,7 @@ function Link() {
           <FontAwesomeIcon icon={faFacebook} className='social-icon facebook' />
 
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/unfinished-aman" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className='social-icon linkedin' />
 
         </a>

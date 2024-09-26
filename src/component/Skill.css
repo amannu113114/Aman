@@ -9,7 +9,7 @@
     justify-content: end;
     flex-direction: column;
     top: 0%;
-    left: 5%;
+    right: 5%;
     padding-bottom: 10px;
     transition: all ease 1s;
 }
@@ -31,3 +31,28 @@
     background-color: whitesmoke;
     color: black;
 }
+
+@media only screen and (max-width: 678px) {
+    #Skill {
+        width: 150px;
+        height: 40px;
+        border-radius: 0 0 20px 20px;
+        top: 0%;
+        left: 5%;
+        padding-bottom: 10px;
+    }
+
+    #Skill h3 {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    #Skill p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #Skill:hover {
+        height: 105px;
+    }
+  }

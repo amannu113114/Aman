@@ -1,27 +1,38 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTimes } from '@fortawesome/free-solid-svg-icons';
+
 import './Id.css'
 
 function Id() {
+    useEffect(() => {
+        const handleDocumentClick = (event) => {
+            const summaryElement = document.querySelector('summary');
+            const clickedElement = event.target;
+            if (!summaryElement.contains(clickedElement)) {
+                const detailsElement = summaryElement.parentNode;
+                detailsElement.open = false;
+            }
+        };
+        document.addEventListener('click', handleDocumentClick);
+        return () => {
+            document.removeEventListener('click', handleDocumentClick);
+        };
+    }, []);
     return (
         <div id='Ids'>
             <details>
                 <summary>
                     <div id="identity">
-                        <h3>I</h3>
-                        <h3>D</h3>
-                        <h3>E</h3>
-                        <h3>N</h3>
-                        <h3>T</h3>
-                        <h3>I</h3>
-                        <h3>T</h3>
-                        <h3>Y</h3>
+                        <h3>IDENTITY</h3>
+
                     </div>
                 </summary>
                 <div id="Id">
                     <div id="boundary">
                         <div class="id-card">
                             <div class="photo">
-                                <img src="/aman.jpeg" alt="User Photo" />
+                                <img src="self.jpeg" alt="User Photo" />
                             </div>
                             <div class="info">
                                 <div class="company">
@@ -43,12 +54,16 @@ function Id() {
                                     <div id="address"><span>Address:</span><br /> Darbhanga</div>
 
                                 </div>
+
                             </div>
+
                         </div>
 
                     </div>
+                    {/* <div id='cross'>
+                        <FontAwesomeIcon icon={faTimes} />
+                    </div> */}
                 </div>
-
             </details>
         </div>
     )
