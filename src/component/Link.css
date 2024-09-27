@@ -52,13 +52,21 @@
 
 @media only screen and (max-width: 678px) {
     #link{
-      height: 180px;
-      width: 40px;
+      height: 40px;
+      width: 100%;
+      left: unset;
+      top: unset;
+      bottom: 8%;
+      right: 0%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      border-radius: 20px 20px 0 0;
     }
     #link .social-icon{
-      font-size: 20px;
+      font-size: 25px;
     }
-  
   
     
   
