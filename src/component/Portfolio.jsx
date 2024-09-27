@@ -13,28 +13,10 @@ const Portfolio = () => {
       <div className="portfolio-body">
         <p className="portfolio-name">AMAN KUMAR</p>
         <p className="portfolio-description">
-          Enthusiastic Web/App Developer with high resolution design and developed web environment based on future creativity and intelligence programmed with digital realms.
-        </p>
+        "As an enthusiastic Web and App Developer, I am passionate about creating high-quality, visually appealing, and technically advanced digital experiences. I focus on designing and developing web environments that are both functional and user-friendly. I enjoy integrating creativity and cutting-edge technology into my projects, pushing boundaries to deliver responsive, efficient, and scalable solutions. With an eye on future growth, I aim to build platforms that adapt to the evolving needs of users and businesses."</p>
       </div>
       <div className="portfolio-info">
-        {/* <div className="portfolio-info-item skills">
-          <h4>Skills</h4>
-          <p>Frontend Developer</p>
-          <p>Language Programing</p>
-          <p>Bash Script</p>
-        </div>
-        <div className="portfolio-info-item projects">
-          <h4>Projects</h4>
-          <p>Medikit</p>
-          <p>Portfolio itself</p>
-          <p>GSAP Collection</p>
-        </div> */}
-        <div className="portfolio-info-item contact">
-          <h4>Experience</h4>
-          <p>1+ year Frontend</p>
-          <p>2+ year Java Programming</p>
-          <p>0+ year Algorithm</p>
-        </div>
+
       </div>
       <Link/>
       <Skill/>

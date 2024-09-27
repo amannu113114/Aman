@@ -49,9 +49,9 @@ function Id() {
                                 </div>
                                 <div class="name">aman kumar</div>
                                 <div id="information">
-                                    <div id="degree"><span>Degree:</span> <br />B. Tech</div>
-                                    <div id="college"><span>College:</span> <br />D.C.E. Darbhanga</div>
-                                    <div id="address"><span>Address:</span><br /> Darbhanga</div>
+                                    <div id="degree"><span>Degree:</span> B. Tech</div>
+                                    <div id="college"><span>College:</span> D.C.E.</div>
+                                    <div id="address"><span>Address:</span> Darbhanga</div>
 
                                 </div>
 

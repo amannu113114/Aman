@@ -1,4 +1,8 @@
-/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Monoton&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Monoton&family=Playwrite+HR+Lijeva:wght@100..400&family=Sofadi+One&display=swap');
+
 .portfolio-container {
   background-color: #1d1d1d;
   color: white;
@@ -19,12 +23,14 @@
 }
 
 .portfolio-container .portfolio-header .portfolio-title {
-  font-size: 100px;
-  font-weight: 800;
+  font-family: "Monoton", sans-serif;
+  font-size: 90px;
+  font-weight: 300;
   letter-spacing: 2px;
 }
 
 .portfolio-container .portfolio-header .portfolio-subtitle {
+  font-family: "Edu AU VIC WA NT Dots", cursive;
   font-size: 30px;
   letter-spacing: 2px;
   text-align: center;
@@ -35,6 +41,7 @@
 }
 
 .portfolio-container .portfolio-body .portfolio-name {
+  font-family: "Baskervville SC", serif;
   font-size: 30px;
   font-weight: 900;
   margin-bottom: 10px;
@@ -42,7 +49,8 @@
 }
 
 .portfolio-container .portfolio-body .portfolio-description {
-  font-size: 17px;
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-size: 20px;
   margin-bottom: 20px;
   max-width: 650px;
 }

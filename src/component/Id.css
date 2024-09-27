@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Monoton&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Monoton&family=Playwrite+HR+Lijeva:wght@100..400&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Monoton&family=Sofadi+One&display=swap');
+
 #Ids {
   height: 50px;
   background-color: #333;
@@ -24,7 +28,9 @@
 }
 
 #Ids details summary #identity h3 {
+  font-family: "Monoton", sans-serif;
   font-size: 30px;
+  font-weight: 600;
 }
 
 #Ids details summary {
@@ -33,6 +39,8 @@
 
 #Ids:hover {
   cursor: pointer;
+  background-color: white;
+  color: black;
 }
 
 #Id {
@@ -107,14 +115,15 @@
 }
 
 .company {
-  background-color: #333333ae;
+  font-family: "Monoton", sans-serif;
+  background-color: #333333a8;
   /* background-color: red; */
   position: absolute;
   color: white;
   padding: 5px;
   margin-bottom: 5px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 500;
   top: 3.35%;
   width: 40px;
   height: 50%;
@@ -126,6 +135,7 @@
 }
 
 .name {
+  font-family: "Baskervville SC", serif;
   background-color: #ffd036;
   border-radius: 10px;
   color: #000000;
@@ -156,12 +166,13 @@ span {
 #degree,
 #college,
 #address {
+  font-family: "Playwrite HR Lijeva", cursive;
   width: 100%;
   height: 30%;
   font-weight: 500;
 }
 #cross{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   padding: 10px;
   border: 2px solid white;
