@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
+
+
 import './Id.css'
 
 function Id() {
@@ -30,12 +32,12 @@ function Id() {
                 </summary>
                 <div id="Id">
                     <div id="boundary">
-                        <div class="id-card">
-                            <div class="photo">
+                        <div className="id-card">
+                            <div className="photo">
                                 <img src="self.jpeg" alt="User Photo" />
                             </div>
-                            <div class="info">
-                                <div class="company">
+                            <div className="info">
+                                <div className="company">
                                     <p>U</p>
                                     <p>N</p>
                                     <p>F</p>
@@ -47,12 +49,17 @@ function Id() {
                                     <p>E</p>
                                     <p>D</p>
                                 </div>
-                                <div class="name">aman kumar</div>
+                                <div className="name">aman kumar</div>
                                 <div id="information">
-                                    <div id="degree"><span>Degree:</span> B. Tech</div>
-                                    <div id="college"><span>College:</span> D.C.E.</div>
-                                    <div id="address"><span>Address:</span> Darbhanga</div>
+                                    <div id="info">
 
+                                    <div id="degree"><span>Position:</span> Developer</div>
+                                    <div id="college"><span>Work As:</span> Frontend</div>
+                                    <div id="address"><span>Experience:</span> 1+ years</div>
+                                    <div id="addresss"><span>Grade:</span> A+</div>
+                                    </div>
+                                    <div id="overlays">
+                                    </div>
                                 </div>
 
                             </div>
