@@ -169,7 +169,7 @@
 #information #overlays{
   background-position: center;
   background-size: cover;
-  background-image: url("download.jpeg");
+  background-image: url("/download.jpeg");
   height: 190px;
   width: 310px;
   margin-top: 10px;
