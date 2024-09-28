@@ -53,10 +53,10 @@ function Id() {
                                 <div id="information">
                                     <div id="info">
 
-                                    <div id="degree"><span>Position:</span> Developer</div>
-                                    <div id="college"><span>Work As:</span> Frontend</div>
-                                    <div id="address"><span>Experience:</span> 1+ years</div>
-                                    <div id="addresss"><span>Grade:</span> A+</div>
+                                        <div id="degree"><span>Position:</span> Developer</div>
+                                        <div id="college"><span>Work As:</span> Frontend</div>
+                                        <div id="address"><span>Experience:</span> 1+ years</div>
+                                        <div id="addresss"><span>Grade:</span> A+</div>
                                     </div>
                                     <div id="overlays">
                                     </div>

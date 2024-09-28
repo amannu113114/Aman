@@ -17,7 +17,7 @@
   left: 0%;
   padding: 10px 0;
   transition: all ease 1s;
-  
+
 }
 
 #Ids details summary #identity {
@@ -154,7 +154,7 @@
   height: 190px;
 }
 
-#information #info{
+#information #info {
   height: 100%;
   width: 310px;
   color: black;
@@ -166,7 +166,7 @@
   position: absolute;
 }
 
-#information #overlays{
+#information #overlays {
   background-position: center;
   background-size: cover;
   background-image: url("/download.jpeg");
@@ -191,7 +191,8 @@ span {
   margin-bottom: 2%;
   border-radius: 5px;
 }
-#cross{
+
+#cross {
   font-size: 30px;
   font-weight: 800;
   padding: 10px;
@@ -210,28 +211,34 @@ span {
     left: 0%;
     padding: 10px 0;
   }
+
   #Ids details summary #identity h3 {
     font-size: 20px;
     font-weight: 600;
   }
+
   #boundary {
     width: 320px;
     height: 600px;
     border-radius: 15px;
   }
+
   .id-card {
     width: 280px;
     height: 540px;
     border-radius: 15px;
     padding: 15px;
   }
+
   .id-card::before {
     height: 290px;
     width: 50px;
   }
+
   .photo {
     height: 260px;
   }
+
   .company {
     margin-bottom: 5px;
     font-size: 15px;
@@ -240,6 +247,7 @@ span {
     width: 35px;
     height: 49%;
   }
+
   .name {
     border-radius: 10px;
     padding: 8px;
@@ -247,16 +255,20 @@ span {
     text-transform: uppercase;
     font-size: 20px;
   }
+
   #information {
     font-size: 20px;
   }
-  #information #info{
+
+  #information #info {
     width: 250px;
   }
-  #information #overlays{
+
+  #information #overlays {
     width: 250px;
   }
-  #information #info{
+
+  #information #info {
     font-size: 18px;
   }
 }
