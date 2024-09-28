@@ -256,4 +256,7 @@ span {
   #information #overlays{
     width: 250px;
   }
+  #information #info{
+    font-size: 18px;
+  }
 }
