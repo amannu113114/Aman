@@ -34,7 +34,7 @@ function Id() {
                     <div id="boundary">
                         <div className="id-card">
                             <div className="photo">
-                                <img src="self.jpeg" alt="User Photo" />
+                                <img src="aman.jpeg" alt="User Photo" />
                             </div>
                             <div className="info">
                                 <div className="company">
